@@ -938,6 +938,9 @@ cleanRegistry(): void
 | x-component-props    | 字段 UI 组件属性                       | `{}`                                                                                                              |
 | x-render             | 字段扩展渲染函数                       | `<T = ISchemaFieldComponentProps>(props: T & { renderComponent: () => React.ReactElement}) => React.ReactElement` |
 | x-effect             | 字段副作用触发器                       | `(dispatch: (type: string, payload: any) => void,option?:object) => { [key: string]: any }`                       |
+| x-sequence           | 子字段显示排序                         | `string[]                                                                                                         |
+
+`
 
 **方法**
 

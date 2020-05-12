@@ -1,6 +1,6 @@
 import React from 'react'
-import { FormItemDeepProvider, useDeepFormItem } from '@formily/antd'
-import { createVirtualBox } from '@formily/react-schema-renderer'
+import { FormItemDeepProvider, useDeepFormItem } from '@xformily/antd'
+import { createVirtualBox } from '@xformily/react-schema-renderer'
 import cls from 'classnames'
 import { IFormItemTopProps } from '../types'
 

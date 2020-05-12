@@ -1,5 +1,5 @@
 import React from 'react'
-import { connect } from '@formily/react-schema-renderer'
+import { connect } from '@xformily/react-schema-renderer'
 import { Button, Upload as AntdUpload } from 'antd'
 import styled from 'styled-components'
 import { toArr, isArr, isEqual, mapStyledProps } from '../shared'

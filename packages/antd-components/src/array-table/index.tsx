@@ -3,13 +3,13 @@ import {
   ISchemaFieldComponentProps,
   SchemaField,
   Schema
-} from '@formily/react-schema-renderer'
+} from '@xformily/react-schema-renderer'
 import { toArr, isFn, isArr, FormPath } from '@formily/shared'
 import { ArrayList, DragListView } from '@formily/react-shared-components'
 import { CircleButton } from '../circle-button'
 import { TextButton } from '../text-button'
 import { Table, Form } from 'antd'
-import { FormItemShallowProvider } from '@formily/antd'
+import { FormItemShallowProvider } from '@xformily/antd'
 import {
   PlusOutlined,
   DeleteOutlined,

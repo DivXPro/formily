@@ -163,6 +163,7 @@ export interface ISchema {
     dispatch: (type: string, payload: any) => void,
     option?: object
   ) => { [key: string]: any }
+  ['x-sequence']?: string[]
 }
 
 export interface ISchemaFormProps<

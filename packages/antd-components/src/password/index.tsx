@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { connect } from '@formily/react-schema-renderer'
+import { connect } from '@xformily/react-schema-renderer'
 import { Input } from 'antd'
 import { PasswordProps } from 'antd/lib/input'
 import { PasswordStrength } from '@formily/react-shared-components'

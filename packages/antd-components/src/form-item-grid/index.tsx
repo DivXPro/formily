@@ -3,8 +3,8 @@ import {
   AntdSchemaFieldAdaptor,
   pickFormItemProps,
   pickNotFormItemProps
-} from '@formily/antd'
-import { createVirtualBox } from '@formily/react-schema-renderer'
+} from '@xformily/antd'
+import { createVirtualBox } from '@xformily/react-schema-renderer'
 import { toArr } from '@formily/shared'
 import { Row, Col } from 'antd'
 import { FormItemProps as ItemProps } from 'antd/lib/form'

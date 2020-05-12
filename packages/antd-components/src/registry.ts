@@ -1,4 +1,4 @@
-import { registerFormFields } from '@formily/antd'
+import { registerFormFields } from '@xformily/antd'
 import { TimePicker } from './time-picker'
 import { Transfer } from './transfer'
 import { Switch } from './switch'

@@ -1,6 +1,6 @@
 import {
   connect
-} from '@formily/react-schema-renderer'
+} from '@xformily/react-schema-renderer'
 import { Checkbox as AntdCheckbox } from 'antd'
 import {
   transformDataSourceKey,

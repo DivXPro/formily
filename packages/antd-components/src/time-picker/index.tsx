@@ -1,4 +1,4 @@
-import { connect } from '@formily/react-schema-renderer'
+import { connect } from '@xformily/react-schema-renderer'
 import moment from 'moment'
 import { TimePicker as AntdTimePicker } from 'antd'
 import {

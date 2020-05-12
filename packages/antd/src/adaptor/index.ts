@@ -1,7 +1,7 @@
 import {
   registerFormComponent,
   registerFormItemComponent
-} from '@formily/react-schema-renderer'
+} from '@xformily/react-schema-renderer'
 import { AntdSchemaFormAdaptor } from './Form'
 import { AntdSchemaFieldAdaptor } from './FormItem'
 

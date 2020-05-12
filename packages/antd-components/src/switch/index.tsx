@@ -1,5 +1,5 @@
 import { Switch as AntdSwitch } from 'antd'
-import { connect } from '@formily/react-schema-renderer'
+import { connect } from '@xformily/react-schema-renderer'
 import { acceptEnum, mapStyledProps } from '../shared'
 
 export const Switch = connect({

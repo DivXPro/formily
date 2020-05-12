@@ -4,7 +4,7 @@ import {
   InternalField,
   connect,
   InternalVirtualField
-} from '@formily/react-schema-renderer'
+} from '@xformily/react-schema-renderer'
 import {
   normalizeCol,
   pickFormItemProps,

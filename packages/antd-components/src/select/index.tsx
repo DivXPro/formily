@@ -1,4 +1,4 @@
-import { connect } from '@formily/react-schema-renderer'
+import { connect } from '@xformily/react-schema-renderer'
 import {
   Select as AntdSelect,
   mapStyledProps,

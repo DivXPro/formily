@@ -3,7 +3,7 @@ import {
   useFormQuery,
   IEffectMiddleware,
   ISchemaFormActions
-} from '@formily/react-schema-renderer'
+} from '@xformily/react-schema-renderer'
 import { defaults } from '@formily/shared'
 
 interface IQueryParams {

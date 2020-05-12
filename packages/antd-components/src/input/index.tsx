@@ -1,4 +1,4 @@
-import { connect } from '@formily/react-schema-renderer'
+import { connect } from '@xformily/react-schema-renderer'
 import { Input as AntdInput } from 'antd'
 import { acceptEnum, mapStyledProps, mapTextComponent } from '../shared'
 

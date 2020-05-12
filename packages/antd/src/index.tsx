@@ -43,7 +43,7 @@ import {
   createVirtualBox,
   cleanRegistry,
   getRegistry
-} from '@formily/react-schema-renderer'
+} from '@xformily/react-schema-renderer'
 import {
   mapStyledProps,
   mapTextComponent,

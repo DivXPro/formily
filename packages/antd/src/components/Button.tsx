@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormSpy, LifeCycleTypes } from '@formily/react-schema-renderer'
+import { FormSpy, LifeCycleTypes } from '@xformily/react-schema-renderer'
 import { Button } from 'antd'
 import { ISubmitProps, IResetProps } from '../types'
 

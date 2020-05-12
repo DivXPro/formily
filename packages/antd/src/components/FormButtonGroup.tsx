@@ -5,7 +5,7 @@ import cls from 'classnames'
 import styled from 'styled-components'
 import { useDeepFormItem } from '../context'
 import { IFormButtonGroupProps } from '../types'
-import { createVirtualBox } from '@formily/react-schema-renderer'
+import { createVirtualBox } from '@xformily/react-schema-renderer'
 
 export interface IOffset {
   top: number | string

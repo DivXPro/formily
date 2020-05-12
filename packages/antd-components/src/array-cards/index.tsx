@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import {
   ISchemaFieldComponentProps,
   SchemaField
-} from '@formily/react-schema-renderer'
+} from '@xformily/react-schema-renderer'
 import { toArr, isFn, FormPath } from '@formily/shared'
 import { ArrayList } from '@formily/react-shared-components'
 import { CircleButton } from '../circle-button'

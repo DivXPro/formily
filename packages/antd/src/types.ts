@@ -12,10 +12,10 @@ import {
   FormPathPattern,
   IFormProps,
   IFieldStateUIProps
-} from '@formily/react-schema-renderer'
+} from '@xformily/react-schema-renderer'
 import { PreviewTextConfigProps } from '@formily/react-shared-components'
 import { StyledComponent } from 'styled-components'
-export * from '@formily/react-schema-renderer'
+export * from '@xformily/react-schema-renderer'
 
 type ColSpanType = number | string
 

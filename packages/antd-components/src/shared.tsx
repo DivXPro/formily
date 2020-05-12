@@ -1,5 +1,5 @@
 import React from 'react'
-import { mapTextComponent, mapStyledProps, normalizeCol } from '@formily/antd'
+import { mapTextComponent, mapStyledProps, normalizeCol } from '@xformily/antd'
 import { Select as AntSelect } from 'antd'
 import { SelectProps as AntSelectProps } from 'antd/lib/select'
 import styled from 'styled-components'

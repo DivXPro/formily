@@ -1,6 +1,6 @@
 import React from 'react'
-import { AntdSchemaFieldAdaptor, pickFormItemProps } from '@formily/antd'
-import { createVirtualBox } from '@formily/react-schema-renderer'
+import { AntdSchemaFieldAdaptor, pickFormItemProps } from '@xformily/antd'
+import { createVirtualBox } from '@xformily/react-schema-renderer'
 import { Row } from 'antd'
 import { RowProps } from 'antd/lib/grid'
 import { FormItemProps as ItemProps } from 'antd/lib/form'

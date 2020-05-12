@@ -1,7 +1,7 @@
-# @formily/antd-components
+# @xformily/antd-components
 
 ### Install
 
 ```bash
-npm install --save @formily/antd-components
+npm install --save @xformily/antd-components
 ```

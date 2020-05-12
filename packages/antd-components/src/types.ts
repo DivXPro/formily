@@ -10,7 +10,7 @@ import {
   IMarkupSchemaFieldProps,
   ISchemaFieldComponentProps,
   FormPathPattern
-} from '@formily/react-schema-renderer'
+} from '@xformily/react-schema-renderer'
 import { PreviewTextConfigProps } from '@formily/react-shared-components'
 import { StyledComponent } from 'styled-components'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { connect } from '@formily/react-schema-renderer'
+import { connect } from '@xformily/react-schema-renderer'
 import moment from 'moment'
 import { DatePicker as AntdDatePicker } from 'antd'
 import {

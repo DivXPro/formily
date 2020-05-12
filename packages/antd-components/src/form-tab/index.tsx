@@ -9,7 +9,7 @@ import {
   SchemaField,
   FormPath,
   IVirtualBoxProps
-} from '@formily/react-schema-renderer'
+} from '@xformily/react-schema-renderer'
 import { Tabs, Badge } from 'antd'
 import { TabPaneProps } from 'antd/lib/tabs'
 import { IFormTab } from '../types'

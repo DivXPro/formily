@@ -1,6 +1,6 @@
 import React, { useRef, useMemo } from 'react'
 import { Form as AntdForm } from 'antd'
-import { InternalForm } from '@formily/react-schema-renderer'
+import { InternalForm } from '@xformily/react-schema-renderer'
 import { normalizeCol, autoScrollInValidateFailed, isAntdV4,log } from '../shared'
 import { FormItemDeepProvider } from '../context'
 import { IAntdFormProps } from '../types'

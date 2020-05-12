@@ -1,4 +1,4 @@
-import { FormSlot } from '@formily/react-schema-renderer'
+import { FormSlot } from '@xformily/react-schema-renderer'
 
 export { FormSlot }
 

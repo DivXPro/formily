@@ -6,7 +6,7 @@ import {
   useFormEffects,
   useFieldState,
   IVirtualBoxProps
-} from '@formily/react-schema-renderer'
+} from '@xformily/react-schema-renderer'
 import { toArr } from '@formily/shared'
 import { Steps } from 'antd'
 import { createMatchUpdate } from '../shared'

@@ -3,7 +3,7 @@ import { PreviewText } from '@formily/react-shared-components'
 import {
   IConnectProps,
   MergedFieldComponentProps
-} from '@formily/react-schema-renderer'
+} from '@xformily/react-schema-renderer'
 import { version } from 'antd'
 import { each } from '@formily/shared'
 export * from '@formily/shared'

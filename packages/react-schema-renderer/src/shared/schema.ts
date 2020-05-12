@@ -445,9 +445,20 @@ export class Schema implements ISchema {
     }
 
     if (!isEmpty(json.properties)) {
-      this.properties = map(json.properties, (item, key) => {
-        return new Schema(item, this, key)
-      })
+      if (json['x-sequence'] != null && isArr(json['x-sequence'])) {
+        const properties: SchemaProperties = {}
+        json['x-sequence'].forEach(key => {
+          const item = json.properties[key]
+          if (item != null) {
+            properties[key] = new Schema(item, this, key)
+          }
+        })
+        this.properties = properties
+      } else {
+        this.properties = map(json.properties, (item, key) => {
+          return new Schema(item, this, key)
+        })
+      }
       if (isValid(json.additionalProperties)) {
         this.additionalProperties = new Schema(json.additionalProperties, this)
       }

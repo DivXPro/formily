@@ -1,10 +1,10 @@
 import React, { useRef, useLayoutEffect } from 'react'
-import { createControllerBox, Schema } from '@formily/react-schema-renderer'
+import { createControllerBox, Schema } from '@xformily/react-schema-renderer'
 import { IFormTextBox } from '../types'
 import { toArr } from '@formily/shared'
 import { FormItemProps as ItemProps } from 'antd/lib/form'
 import { version } from 'antd'
-import { AntdSchemaFieldAdaptor, pickFormItemProps } from '@formily/antd'
+import { AntdSchemaFieldAdaptor, pickFormItemProps } from '@xformily/antd'
 import styled from 'styled-components'
 
 const isV4 = /^4\./.test(version)

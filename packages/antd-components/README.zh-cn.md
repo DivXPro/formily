@@ -1,9 +1,9 @@
-# @formily/antd-components
+# @xformily/antd-components
 
 ### 安装
 
 ```bash
-npm install --save @formily/antd-components
+npm install --save @xformily/antd-components
 ```
 
 ### 显式加载组件
@@ -16,8 +16,8 @@ import {
   SchemaMarkupField as Field,
   FormButtonGroup,
   Submit
-} from '@formily/antd'
-import { Input } from '@formily/antd-components'
+} from '@xformily/antd'
+import { Input } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 export default () => {
@@ -39,8 +39,8 @@ import {
   SchemaMarkupField as Field,
   FormButtonGroup,
   Submit
-} from '@formily/antd'
-import { setup } from '@formily/antd-components'
+} from '@xformily/antd'
+import { setup } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 setup()
@@ -87,8 +87,8 @@ export default () => {
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { Input } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { Input } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -125,8 +125,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { Input } from '@formily/antd-components'
+} from '@xformily/antd'
+import { Input } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -157,8 +157,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { Input } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { Input } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -179,8 +179,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { Select } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { Select } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -231,8 +231,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { Select } from '@formily/antd-components'
+} from '@xformily/antd'
+import { Select } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -279,8 +279,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { Select } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { Select } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -317,8 +317,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { Input } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { Input } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -355,8 +355,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { Input } from '@formily/antd-components'
+} from '@xformily/antd'
+import { Input } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -382,8 +382,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { Input } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { Input } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -404,8 +404,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { Password } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { Password } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -442,8 +442,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { Password } from '@formily/antd-components'
+} from '@xformily/antd'
+import { Password } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -469,8 +469,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { Password } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { Password } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -491,8 +491,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { NumberPicker } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { NumberPicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -526,8 +526,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { NumberPicker } from '@formily/antd-components'
+} from '@xformily/antd'
+import { NumberPicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -550,8 +550,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { NumberPicker } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { NumberPicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -576,8 +576,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { Switch } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { Switch } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -611,8 +611,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { Switch } from '@formily/antd-components'
+} from '@xformily/antd'
+import { Switch } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -631,8 +631,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { Switch } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { Switch } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -653,8 +653,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { DatePicker } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { DatePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -691,8 +691,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { DatePicker } from '@formily/antd-components'
+} from '@xformily/antd'
+import { DatePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -718,8 +718,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { DatePicker } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { DatePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -749,8 +749,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { DatePicker } from '@formily/antd-components'
+} from '@xformily/antd'
+import { DatePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -784,8 +784,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { DatePicker } from '@formily/antd-components'
+} from '@xformily/antd'
+import { DatePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -804,8 +804,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { DatePicker } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { DatePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -830,8 +830,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { DatePicker } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { DatePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -865,8 +865,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { DatePicker } from '@formily/antd-components'
+} from '@xformily/antd'
+import { DatePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -885,8 +885,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { DatePicker } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { DatePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -911,8 +911,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { DatePicker } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { DatePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -946,8 +946,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { DatePicker } from '@formily/antd-components'
+} from '@xformily/antd'
+import { DatePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -966,8 +966,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { DatePicker } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { DatePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -992,8 +992,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { DatePicker } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { DatePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1027,8 +1027,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { DatePicker } from '@formily/antd-components'
+} from '@xformily/antd'
+import { DatePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1047,8 +1047,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { DatePicker } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { DatePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1073,8 +1073,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { TimePicker } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { TimePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1111,8 +1111,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { TimePicker } from '@formily/antd-components'
+} from '@xformily/antd'
+import { TimePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1138,8 +1138,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { TimePicker } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { TimePicker } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1165,8 +1165,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { Range } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { Range } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1205,8 +1205,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { Range } from '@formily/antd-components'
+} from '@xformily/antd'
+import { Range } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1234,8 +1234,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { Range } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { Range } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1263,8 +1263,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { Upload } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { Upload } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1315,8 +1315,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { Upload } from '@formily/antd-components'
+} from '@xformily/antd'
+import { Upload } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1358,8 +1358,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { Upload } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { Upload } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1397,8 +1397,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { Checkbox } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { Checkbox } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1444,8 +1444,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { Checkbox } from '@formily/antd-components'
+} from '@xformily/antd'
+import { Checkbox } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1485,8 +1485,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { Checkbox } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { Checkbox } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1523,8 +1523,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { Radio } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { Radio } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1570,8 +1570,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { Radio } from '@formily/antd-components'
+} from '@xformily/antd'
+import { Radio } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1611,8 +1611,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { Radio } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { Radio } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1649,8 +1649,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { Rating } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { Rating } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1687,8 +1687,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { Rating } from '@formily/antd-components'
+} from '@xformily/antd'
+import { Rating } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1718,8 +1718,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { Rating } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { Rating } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1740,8 +1740,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { Transfer } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { Transfer } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1785,8 +1785,8 @@ import {
   SchemaForm,
   SchemaMarkupField as Field,
   createFormActions
-} from '@formily/antd'
-import { Transfer } from '@formily/antd-components'
+} from '@xformily/antd'
+import { Transfer } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1823,8 +1823,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Form, FormItem } from '@formily/antd'
-import { Transfer } from '@formily/antd-components'
+import { Form, FormItem } from '@xformily/antd'
+import { Transfer } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => {
@@ -1865,7 +1865,7 @@ import {
   FormButtonGroup,
   Submit,
   Reset
-} from '@formily/antd'
+} from '@xformily/antd'
 import {
   Input,
   ArrayCards,
@@ -1873,7 +1873,7 @@ import {
   FormBlock,
   FormItemGrid,
   FormLayout
-} from '@formily/antd-components'
+} from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 import Printer from '@formily/printer'
 
@@ -1957,7 +1957,7 @@ import {
   FormButtonGroup,
   Submit,
   Reset
-} from '@formily/antd'
+} from '@xformily/antd'
 import {
   Input,
   ArrayTable,
@@ -1965,7 +1965,7 @@ import {
   FormBlock,
   FormItemGrid,
   FormLayout
-} from '@formily/antd-components'
+} from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 import Printer from '@formily/printer'
 
@@ -2027,8 +2027,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { FormCard, Input } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { FormCard, Input } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => (
@@ -2050,8 +2050,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { SchemaForm, SchemaMarkupField as Field } from '@formily/antd'
-import { FormBlock, Input } from '@formily/antd-components'
+import { SchemaForm, SchemaMarkupField as Field } from '@xformily/antd'
+import { FormBlock, Input } from '@xformily/antd-components'
 import 'antd/dist/antd.css'
 
 const App = () => (
@@ -2095,7 +2095,7 @@ import {
   FormEffectHooks,
   createFormActions,
   Reset
-} from '@formily/antd'
+} from '@xformily/antd'
 import {
   Input,
   FormGridRow,
@@ -2107,7 +2107,7 @@ import {
   FormCard,
   FormTextBox,
   FormStep
-} from '@formily/antd-components'
+} from '@xformily/antd-components'
 import { Button } from 'antd'
 import Printer from '@formily/printer'
 import 'antd/dist/antd.css'
@@ -2196,8 +2196,8 @@ import {
   Reset,
   FormSpy,
   createFormActions
-} from '@formily/antd'
-import { Input, FormTab } from '@formily/antd-components'
+} from '@xformily/antd'
+import { Input, FormTab } from '@xformily/antd-components'
 import { Button } from 'antd'
 import Printer from '@formily/printer'
 import 'antd/dist/antd.css'
@@ -2304,7 +2304,7 @@ import {
   Submit,
   FormButtonGroup,
   Reset
-} from '@formily/antd'
+} from '@xformily/antd'
 import {
   Input,
   NumberPicker,
@@ -2314,7 +2314,7 @@ import {
   FormCard,
   FormBlock,
   FormLayout
-} from '@formily/antd-components'
+} from '@xformily/antd-components'
 import { Button } from 'antd'
 import Printer from '@formily/printer'
 import 'antd/dist/antd.css'
@@ -2371,7 +2371,7 @@ import {
   Submit,
   FormButtonGroup,
   Reset
-} from '@formily/antd'
+} from '@xformily/antd'
 import {
   Input,
   FormTextBox,
@@ -2379,7 +2379,7 @@ import {
   FormCard,
   FormBlock,
   FormLayout
-} from '@formily/antd-components'
+} from '@xformily/antd-components'
 import { Button } from 'antd'
 import Printer from '@formily/printer'
 import 'antd/dist/antd.css'
@@ -2433,7 +2433,7 @@ import {
   Submit,
   FormButtonGroup,
   Reset
-} from '@formily/antd'
+} from '@xformily/antd'
 import {
   Input,
   NumberPicker,
@@ -2442,7 +2442,7 @@ import {
   FormCard,
   FormBlock,
   FormLayout
-} from '@formily/antd-components'
+} from '@xformily/antd-components'
 import { Button } from 'antd'
 import Printer from '@formily/printer'
 import 'antd/dist/antd.css'

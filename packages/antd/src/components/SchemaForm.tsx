@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { SchemaMarkupForm } from '@formily/react-schema-renderer'
+import { SchemaMarkupForm } from '@xformily/react-schema-renderer'
 import { IAntdSchemaFormProps } from '../types'
 import { autoScrollInValidateFailed } from '../shared'
 
