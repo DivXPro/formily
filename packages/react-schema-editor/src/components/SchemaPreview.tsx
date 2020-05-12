@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { ISchemaPreviewProps } from '../utils/types'
-import { SchemaForm } from '@formily/antd'
+import { SchemaForm } from '@xformily/antd'
 import {
   Input,
   Radio,
